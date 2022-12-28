@@ -1,0 +1,7 @@
+kind: Project
+name: hotphp
+environments:
+  - name: default
+providers:
+  - name: local-kubernetes
+    buildMode: cluster-buildkit

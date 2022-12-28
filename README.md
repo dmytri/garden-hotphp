@@ -2,13 +2,17 @@
 
 How might me use php's built in webserver to do live code syncing in dev mode?
 
+## It should
+ - Run a php service
+ - Load a php component passed by way of a command line argrument
+
 # Why
 
-So developers working on php based services can use code syncing to see their changes running and test as they code
+So developers working on php-based services can use code syncing to see their changes running and test as they code.
 
 # How
 
-Create a php scrit that sets passed argments as environment varbiables, starts the dev server running the service
+Create a php script that sets passed argments as environment varbiables, starts the dev server running the service
 
 # Steps
 
@@ -23,14 +27,12 @@ Create a php scrit that sets passed argments as environment varbiables, starts t
 
 ## Test Plan
 
-- clone repo
-- from repo root `garden dev`
-- open ingress for hotphp service in browser
-- edit `app/component.php` with small change
-- refresh browser
+- Clone repo
+- From repo root `garden dev`
+- Open ingress for hotphp service in browser
+- Edit `app/component.php` with small change
+- Refresh browser
 
 ## Expected Result
 
-Change is visible when browser refreshed
-
-
+Change made to component is visible when browser refreshed

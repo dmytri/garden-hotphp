@@ -36,3 +36,10 @@ Create a php script that sets passed argments as environment varbiables, starts 
 ## Expected Result
 
 Change made to component is visible when browser refreshed
+
+# See
+- [site/Dockerfile](site/Dockerfile)
+- [site/garden.yml](site/garden.yml)
+- [https://docs.garden.io/guides/code-synchronization-dev-mode](https://docs.garden.io/guides/code-synchronization-dev-mode)
+- [https://garden.io](https://garden.io)
+

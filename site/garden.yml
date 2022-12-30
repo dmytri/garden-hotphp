@@ -5,14 +5,15 @@ description: php dev server dev mode
 include: [.]
 services:
   - name: site
+    disabled: false
     devMode:
       command: [
-            php,
-            dev.php,
-            Component,
-            main,
-            config.yml 
-        ]
+        php,
+        dev.php,
+        Component,
+        main,
+        config.yml 
+      ]
       sync:
       - source: app
         target: /app
@@ -25,3 +26,12 @@ services:
       - path: /
         port: http
 
+tasks:
+  - name: cli
+    command: [
+      php,
+      cli.php,
+      Component,
+      main,
+      config.yml 
+    ]

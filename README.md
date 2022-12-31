@@ -1,4 +1,4 @@
-# Gardeb Hot PHP
+# Garden Hot PHP
 
 ## Question
 

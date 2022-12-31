@@ -25,13 +25,3 @@ services:
     ingresses:
       - path: /
         port: http
-
-tasks:
-  - name: cli
-    command: [
-      php,
-      cli.php,
-      Component,
-      main,
-      config.yml 
-    ]

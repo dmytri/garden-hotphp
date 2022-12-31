@@ -49,21 +49,22 @@ Change made to component is visible when browser refreshed
 
 ### How
 
-Create a php cli script that displaces arguments passed from the command line, and a garden task to execute it in cluster.
+Create a php cli script that displaces arguments passed from the command line, and a garden custom command to execute it in cluster with garden exec.
 
 ### Steps
 
 - create cli.ph
-- create garden task to run it
+- create garden custom command to run it with garden exec
 
 ### Running Example
 
 #### Test Plan
 
 - Clone repo
-- From repo root `garden run task cli`
+- From repo root `garden dev`
+- From repo root `garden cli`
 - Edit `app/cli.php` with small change
-- Run `garden run task cli` again
+- Run `garden cli` again
 
 ## Expected Result
 

@@ -51,7 +51,7 @@ Create a php cli script that displaces arguments passed from the command line, a
 
 ### Steps
 
-- creare cli.ph
+- create cli.ph
 - create garden task to run it
 
 ### Running Example

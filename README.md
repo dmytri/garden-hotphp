@@ -1,15 +1,17 @@
-# Question
+# Gardeb Hot PHP
+
+## Question
 
 How do we use Garden's live code syncing to see code changes running in cluster?
 
-- Web App Example
-- CLI Example
+- [Web App Example](## Web App Example)
+- [CLI Example](## CLI Example)
 
-# Why
+## Why
 
 So developers working on php-based services can use code syncing to see their changes running and test as they code.
 
-# Requires
+## Requires
 
 - Minikube or other local-kubernetes
 
@@ -73,51 +75,4 @@ Change made to cli.php output is visible when task run again
 - [https://docs.garden.io/guides/code-synchronization-dev-mode](https://docs.garden.io/guides/code-synchronization-dev-mode)
 - [https://garden.io](https://garden.io)
 
-
-
-## It should
- - Run a php service
- - Load a php component passed by way of a command line argrument
-
-# Why
-
-So developers working on php-based services can use code syncing to see their changes running and test as they code.
-
-## Requires
-
-- Minikube or other local-kubernetes
-## Web App Example
-Create a php script that sets passed argments as environment varbiables, starts the dev server running the service
-
-### Steps
-
-- create dev.php script
-- use dev.php in devMode command
-
-### Running Example
-
-
-#### Test Plan
-
-- Clone repo
-- From repo root `garden dev`
-- Open ingress for hotphp service in browser
-- Edit `app/component.php` with small change
-- Refresh browser
-
-## Expected Result
-
-Change made to component is visible when browser refreshed
-
-## CLI Example
-
-Create a php cli script that displaces arguments passed from the command line, and a garden task to execute it in cluster.
-
-
-
-# See
-- [site/Dockerfile](site/Dockerfile)
-- [site/garden.yml](site/garden.yml)
-- [https://docs.garden.io/guides/code-synchronization-dev-mode](https://docs.garden.io/guides/code-synchronization-dev-mode)
-- [https://garden.io](https://garden.io)
 

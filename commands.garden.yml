@@ -1,0 +1,8 @@
+kind: Command
+name: cli
+description:
+  short: run php cli in container with garden exec
+gardenCommand:
+  - exec
+  - site
+  - "php cli.php component main config.yml"

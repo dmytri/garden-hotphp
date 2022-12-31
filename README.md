@@ -5,7 +5,7 @@
 How do we use Garden's live code syncing to see code changes running in cluster?
 
 - [Web App Example](#web-app-example)
-- [CLI Example](#-cli-Example)
+- [CLI Example](#cli-example)
 
 ## Why
 

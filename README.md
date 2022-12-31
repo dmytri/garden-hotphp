@@ -68,7 +68,7 @@ Create a php cli script that displaces arguments passed from the command line, a
 
 ## Expected Result
 
-Change made to cli.php output is visible when task run again
+Change made to cli.php output is visible when cli command run again
 
 # See
 - [commands.garden.yml](commands.garden.yml)

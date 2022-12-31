@@ -71,6 +71,7 @@ Create a php cli script that displaces arguments passed from the command line, a
 Change made to cli.php output is visible when task run again
 
 # See
+- [commands.garden.yml](commands.garden.yml)
 - [site/Dockerfile](site/Dockerfile)
 - [site/garden.yml](site/garden.yml)
 - [https://docs.garden.io/guides/code-synchronization-dev-mode](https://docs.garden.io/guides/code-synchronization-dev-mode)

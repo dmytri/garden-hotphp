@@ -62,7 +62,7 @@ and a garden custom command to execute it in cluster with garden exec.
 
 ### Steps
 
-- create cli.ph
+- create cli.php
 - create garden custom command to run it with garden exec
 
 ### Running Example

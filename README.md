@@ -47,6 +47,11 @@ Change made to component is visible when browser refreshed
 
 ## CLI Example
 
+### It should
+
+ - Run a php base cli
+ - Output command line arguments
+
 ### How
 
 Create a php cli script that displaces arguments passed from the command line, and a garden custom command to execute it in cluster with garden exec.

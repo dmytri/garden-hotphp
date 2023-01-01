@@ -2,14 +2,16 @@
 
 ## Question
 
-How do we use Garden's live code syncing to see code changes running in cluster?
+How do we use Garden's live code syncing to see PHP code changes to running in
+cluster?
 
 - [Web App Example](#web-app-example)
 - [CLI Example](#cli-example)
 
 ## Why
 
-So developers working on php-based services can use code syncing to see their changes running and test as they code.
+So developers working on php-based services can use code syncing to see their
+changes running and test as they code.
 
 ## Requires
 
@@ -20,11 +22,12 @@ So developers working on php-based services can use code syncing to see their ch
 ### It should
 
  - Run a php base web service
- - Load a php component passed by way of a command line argrument
+ - Load a php component passed by way of a command line argument
 
 ### How
 
-Create a php script that sets passed argments as environment varbiables, starts the dev server running the service
+Create a php script that sets passed argments as environment varbiables,
+starts the dev server running the service.
 
 ### Steps
 
@@ -54,7 +57,8 @@ Change made to component is visible when browser refreshed
 
 ### How
 
-Create a php cli script that displaces arguments passed from the command line, and a garden custom command to execute it in cluster with garden exec.
+Create a php cli script that displaces arguments passed from the command line,
+and a garden custom command to execute it in cluster with garden exec.
 
 ### Steps
 
@@ -81,5 +85,4 @@ Change made to cli.php output is visible when cli command run again
 - [site/garden.yml](site/garden.yml)
 - [https://docs.garden.io/guides/code-synchronization-dev-mode](https://docs.garden.io/guides/code-synchronization-dev-mode)
 - [https://garden.io](https://garden.io)
-
 
